@@ -24,5 +24,6 @@ Game example (certain age to play)
 
 Unit 4
 An Intro into GitHub
-
+New participants up-to-date (Latikka has task meanwhile)
+Arrays (and the methods, functions)
 
