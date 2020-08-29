@@ -1,0 +1,28 @@
+Unit 1
+Presentation
+Making a class, hierarchy
+Printing
+Variables
+Concatenation
+Classes, main method, syntax
+Q&A - Examples
+Comprehension Questions
+
+Unit 2
+Recap unit 1 - 10 mins
+Intro into byte, long (space saving), char
+Primative vs Reference (Date Class)
+Order of Operations (PEMDAS/BODMAS) with Math Operations
+String methods - Special Reference Type
+Math class (.min, .max, .floor, .ceil)
+
+Unit 3
+If statements
+Else if statements
+Else statements
+Game example (certain age to play)
+
+Unit 4
+An Intro into GitHub
+
+
