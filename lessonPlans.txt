@@ -27,3 +27,10 @@ An Intro into GitHub
 New participants up-to-date (Latikka has task meanwhile)
 Arrays (and the methods, functions)
 
+Unit 5
+Updating GitHub/Show Changes
+Recap on Arrays
+Shopping Array Practice Problem
+Intro into for loop (to minimize labor)
+
+
