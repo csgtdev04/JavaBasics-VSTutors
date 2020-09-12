@@ -33,4 +33,11 @@ Recap on Arrays
 Shopping Array Practice Problem
 Intro into for loop (to minimize labor)
 
-
+Unit 6
+Lattika
+Arrays and For Loop Review 
+Arrays with if statements
+While loop Intro
+Star Problem (while inside for) 
+Hasini
+Go over 1st and 2nd class - ask any questions...
