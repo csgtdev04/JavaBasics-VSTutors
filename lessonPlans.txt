@@ -41,3 +41,26 @@ While loop Intro
 Star Problem (while inside for) 
 Hasini
 Go over 1st and 2nd class - ask any questions...
+
+Unit 7
+GitHub updates
+Review over question from last week (finding even/odd)
+Bank Account (if enough money withdraw) practice Problem
+
+Unit 8 
+ArrayList
+While Loop
+
+Unit 9
+Finish Project (add customers)
+
+Unit 10
+Finish Project (check everything)
+
+Unit 11
+Exam
+
+Unit 12
+OOPs
+Object Oriented Programming
+
