@@ -45,7 +45,7 @@ Go over 1st and 2nd class - ask any questions...
 Unit 7
 GitHub updates
 Review over question from last week (finding even/odd)
-Bank Account (if enough money withdraw) practice Problem
+Start on Bank Account (if enough money withdraw) Project
 
 Unit 8 
 ArrayList
@@ -61,6 +61,9 @@ Unit 11
 Exam
 
 Unit 12
+GitHub Basics
+
+Unit 13
 OOPs
 Object Oriented Programming
 
