@@ -24,7 +24,44 @@ public class NinthClass {
         //.add(number), .add(index, number), .size(), .get()
         
         //You create a list of groceries (you must have 5 items) and you need to show the size of the list and also add in another item you forgot to at index position 3
+        List<String> groceries_list = new ArrayList<String>();
+        groceries_list.add("Cookies");
+        groceries_list.add("Apple");
+        groceries_list.add("Toy");
+        groceries_list.add("Game");
+        groceries_list.add("Blocks");
+        System.out.println(groceries_list.contains("toy")); //call a method or function
+        System.out.println(groceries_list.size()); //call a method or function
+        groceries_list.add(3, "Chips");
+        System.out.println("Here is the list: " + groceries_list);
+        System.out.println(groceries_list.size());
         //You create a list of Booleans (you must have at least 3) and you need to tell me how many of them are false and how many are true, FOR LOOP
+        List<Boolean> boolean_list = new ArrayList<Boolean>();
+        boolean_list.add(true); //0th index
+        boolean_list.add(false);
+        boolean_list.add(false);
+        boolean_list.add(true);
+        boolean_list.add(false);
+        boolean_list.add(false);
+        boolean_list.add(false);
+
+        int true_count = 0;
+        int false_count = 0;
+
+        for(int i = 0; i < boolean_list.size(); i++) {
+            if(boolean_list.get(i) == true) {
+                //We have a true item in our list
+                true_count += 1; //true_count = true_count + 1
+            } 
+            else {
+                //We have a false item in our list
+                false_count += 1;
+            }
+        }
+        System.out.println("True Count: " + true_count);
+        System.out.println("False Count: " + false_count);
+
+        //Streams (one line!)
 
        
         //New students view presentation and look over GitHub (via website) while I teach Dhak/Latt
