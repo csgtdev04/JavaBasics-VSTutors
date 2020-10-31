@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class FourthClass{
 
     public static void main(String []args){

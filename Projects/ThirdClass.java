@@ -1,3 +1,5 @@
+package Projects;
+
 import java.util.Scanner;
 
 public class ThirdClass {
@@ -23,6 +25,7 @@ public class ThirdClass {
             System.out.println("You got it wrong!");
         }
         //YES doesnt equal yes
+        keyboardInput.close();
 
     }
 }

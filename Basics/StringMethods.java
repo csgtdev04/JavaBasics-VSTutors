@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Date;
 
-public class s {
+public class StringMethods {
    
         public static void main(String[] args) {
             //Printing

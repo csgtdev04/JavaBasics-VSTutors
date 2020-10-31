@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Date;
 
 public class SecondClass {

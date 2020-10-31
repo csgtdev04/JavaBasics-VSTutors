@@ -1,3 +1,5 @@
+package Projects;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -75,5 +77,6 @@ public class TenthClass {
         System.out.println("The bank has closed for today, come again tommorow!");
         System.out.println("There was a total of " + bankList.size() + " people today.");
         System.out.println("The names of our valued customers are " + bankList + ".");
+        myObj.close();
     }
 }

@@ -24,46 +24,50 @@ Game example (certain age to play)
 
 Unit 4
 An Intro into GitHub
-New participants up-to-date (Latikka has task meanwhile)
+New participants up-to-date 
 Arrays (and the methods, functions)
 
 Unit 5
 Updating GitHub/Show Changes
 Recap on Arrays
 Shopping Array Practice Problem
-Intro into for loop (to minimize labor)
+Intro into For loop
 
 Unit 6
-Lattika
 Arrays and For Loop Review 
 Arrays with if statements
 While loop Intro
 Star Problem (while inside for) 
-Hasini
-Go over 1st and 2nd class - ask any questions...
 
 Unit 7
 GitHub updates
 Review over question from last week (finding even/odd)
-Start on Bank Account (if enough money withdraw) Project
+Start on Bank Account Project (see "Projects" package)
 
 Unit 8 
 ArrayList
-While Loop
+While Loop Intro
 
 Unit 9
-Finish Project (add customers)
+Updates to GitHub
+Packages/Folders in Java (for organization)
+Answer Concerns/Questions
+Simple Interest Functionality to Bank Project
 
 Unit 10
-Finish Project (check everything)
+Final Questions before next week Exam
+Finish Project
 
 Unit 11
-Exam
+Exam (20 minutes)
 
 Unit 12
-GitHub Basics
+GitHub Basics (cloning) - time to get organized!
+Start on OOPs Design
 
 Unit 13
-OOPs
-Object Oriented Programming
+Create your first class - Person (OOPs)
+Describe Fundamentals of Design-Oriented Programming:
+- Intro into Attributes, Constructor, Methods
+- Introduce Runner Class
 

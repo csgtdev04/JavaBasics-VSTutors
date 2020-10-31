@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class FifthClass {
     public static void main(String []args){
         //Recap On Arrays
