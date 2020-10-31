@@ -1,13 +1,16 @@
 package Projects;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 
-public class TenthClass {
+public class BankProject {
     public static void main(String[] args) {
         // Bank Project (DEBUG)
         Scanner myObj = new Scanner(System.in);
+        myObj.useLocale(Locale.US);
         List<String> bankList = new ArrayList<String>();
         for (int i = 0; i < 5; i++) {
             System.out.println();
@@ -26,6 +29,10 @@ public class TenthClass {
                 System.out.println("Thanks you for returning valued customer!");
             }
 
+            //HashMap<String, Integer> h_map = new HashMap<String, Integer>();
+            //"Sai", 36
+            //"Lattika", 56
+            //"Dhakshesh", 12
             System.out.print("What can we help you with? (Enter W for withdraw, L for loan, or D for deposit)");
             String help_on = myObj.nextLine();
             System.out.println();
@@ -63,8 +70,20 @@ public class TenthClass {
                 double amount_wanted = myObj.nextDouble();
                 myObj.nextLine();
                 System.out.println();
-                System.out.println("You owe the bank " + amount_wanted);
-                System.out.println("Make sure to pay the bank by a year or else you will have to pay a simple interest of 10 percent!");
+                System.out.print("After how many years will you return your loan (we use compound interest)?");
+                double time_in_loan = myObj.nextDouble();
+                myObj.nextLine();
+                System.out.println();
+                double final_rate = 1.05;
+                
+                //Compound Interest
+                //1) Formula : P(1 + r)^t
+                //2) Variables: P, r, t (P is the loan, bank gives r, 5 yrs base)
+                double cmpd_interest = Math.round(amount_wanted * Math.pow(final_rate, time_in_loan));
+                
+
+                System.out.println("You owe the bank " + cmpd_interest + " in 5 years.");
+                System.out.println("Make sure to pay the bank by " + time_in_loan + " or the money you owe the bank will increase!");
                 System.out.println("Bye, have a nice day!");
             }
 
