@@ -29,6 +29,20 @@ public class EleventhClass {
         System.out.println(even_numbers);
         System.out.println(even_numbers.size());
 
+        //While (for loop) loop
+        //for(starting point; how far?; how do we get there?) {
+            //code goes here!
+        //}
+
+        //starting point
+        //while(how far?) {
+            //code goes here!
+            //how do we get there?
+        //}
+
+        
+
+
 
     }
 }
