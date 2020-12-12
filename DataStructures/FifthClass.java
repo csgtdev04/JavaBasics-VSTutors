@@ -5,7 +5,7 @@ public class FifthClass {
         //Recap On Arrays
         int a = 5;
         int b = 10;
-        int[] array = new int[2]; 
+        int[] array = new int[2]; //fixed size -> immutable
         array[0] = a;
         array[1] = b;
         System.out.println(array[0]);

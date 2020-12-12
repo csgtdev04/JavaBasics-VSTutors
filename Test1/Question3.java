@@ -14,7 +14,7 @@ public class Question3 {
         int a = 9;
         int b = 1;
         int c = 0;
-
+        //    T      OR      F    OR     F ========= T
         if((a+b==10) || (b+c==10) || (a+c==10)) {
             System.out.println("10");
         } else if ((a+b+10==b+c) || (a+b+10==a+c)) {
@@ -22,6 +22,6 @@ public class Question3 {
         } else {
             System.out.println("0");
         }
-
+        
     }
 }

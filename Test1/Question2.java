@@ -7,7 +7,6 @@ Sample Input:
 make2([4, 5], [1, 2, 3]) → [4, 5]
 make2([4], [1, 2, 3]) → [4, 1]
 make2([], [1, 2]) → [1, 2]
-
 */
 
 public class Question2 {
