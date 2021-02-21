@@ -18,10 +18,11 @@ public class SecondClass {
         int result = 2 + (3 * 4) / 6;
         System.out.println(result);
         //String methods - Special Reference Type
-        String name = "jioshiuhihqehoqe";
+        String name = "jioshiuhihqehoqea";
         System.out.println(name.toUpperCase()); //makes all the letter uppercase
         System.out.println(name.endsWith("e")); //returns (prints) true if last letter of name is 'e'
-
+        System.out.println(name.equals("jioshiuhihqehoqea"));        
+        
         //Math class (.min, .max, .floor, .ceil)
         int max_number = Math.max(4, 5); //max of 2 numbers
         System.out.println(max_number);

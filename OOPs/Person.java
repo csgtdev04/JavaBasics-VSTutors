@@ -4,7 +4,7 @@ package OOPs;
 public class Person {
     // Attributes
     String name;
-    int age;
+    int age;    
     // String[] candy_list;
 
     // Constructor

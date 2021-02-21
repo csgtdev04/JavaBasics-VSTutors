@@ -1,6 +1,6 @@
 package Basics;
 
-public class SeventhClass {
+public class SeventhClass {    
     public static void main(String[] args) {
         //Review of last week:
         //Finding even/odd numbers in java
