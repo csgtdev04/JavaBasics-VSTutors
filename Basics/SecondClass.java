@@ -11,7 +11,7 @@ public class SecondClass {
         long phone_num = 48990812347879223L;
         char letter_a = 'a'; //char acter
         //Primative vs Reference (Date Class)
-        Date date = new Date();
+        Date date = new Date();        
         System.out.println(date);
         System.out.println(date.getTime());
         //Order of Operations (PEMDAS/BODMAS) with Math Operations
@@ -20,7 +20,7 @@ public class SecondClass {
         //String methods - Special Reference Type
         String name = "jioshiuhihqehoqea";
         System.out.println(name.toUpperCase()); //makes all the letter uppercase
-        System.out.println(name.endsWith("e")); //returns (prints) true if last letter of name is 'e'
+        System.out.println("End with case: " + name.endsWith("e")); //returns (prints) true if last letter of name is 'e'
         System.out.println(name.equals("jioshiuhihqehoqea"));        
         
         //Math class (.min, .max, .floor, .ceil)
