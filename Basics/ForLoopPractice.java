@@ -42,5 +42,55 @@ public class ForLoopPractice {
 
 
         // 1 * 3 = 3 * 2 = 6 * 1 = 6
+
+
+        //123 Pro-sum diff (6 - 6)
+        //56 (30 - 11 = 19)
+        //14972469922126489
+        
+        //1. find product
+        //2. find sum
+        //3. product - sum
+
+        // int a = 56;
+        // int x = 56 / 10 = 5
+        // int y = 56 % 10 = 6
+        // int prod = x*y
+
+        // int sum = x+y
+
+        // prod - sum
+
+        int num1 = 123;
+        int product1 = 1;
+        int sum = 0;
+        for(int i = num1; i > 0; i/=10) {
+            int last_digit = i % 10;
+            product1 *= last_digit;
+            sum += last_digit;
+        }
+        int product_sum_dif = product1-sum;
+        System.out.println(product_sum_dif);
+
+        if(product_sum_dif > 10) {
+            System.out.println("The product must have been very large.");
+        } else {
+            System.out.println("The product must NOT have been very large.");
+        }
+
+        //comes into for loop 1st time
+        // i = 56
+        // 56 > 0 yes
+        // product = 6
+
+        // //2nd time
+        // i = 5
+        // 5 > 0 yes
+        // product = 30
+
+        // //3rd time
+        // i = 0
+        // 0 > 0 no
+
     }
 }
