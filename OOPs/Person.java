@@ -3,8 +3,8 @@ package OOPs;
 
 public class Person {
     // Attributes
-    String name;
-    int age;    
+    private String name;
+    private int age;    
     // String[] candy_list;
 
     // Constructor
@@ -27,11 +27,11 @@ public class Person {
 
     //Getters
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     //Setters (void)
@@ -41,4 +41,11 @@ public class Person {
     public void setAge(int updated_age) {
         this.age = updated_age;
     }
+
+	@Override
+	public String toString() {
+		return "Person [age=" + age + ", name=" + name + "]";
+	}
+
+    
 }
