@@ -1,9 +1,5 @@
 package Basics;
 
-import java.util.*;
-
-import javax.print.attribute.standard.NumberUpSupported;
-
 public class Arrays {
     public static void main(String args[]) {
         // DO NOT CHANGE ANY OF THE INDENTED CODE
