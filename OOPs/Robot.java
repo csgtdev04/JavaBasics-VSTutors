@@ -1,11 +1,9 @@
 package OOPs;
 
-public class Robot {
-    
+public class Robot {    
     //Attibutes
     String attitude;
     int age;
-
 
     //Constructor
     public Robot() {
@@ -15,19 +13,33 @@ public class Robot {
 
     //Main method (where the code actually appears on the terminal screen - output)
     public static void main(String[] args) {
-        boolean someone_has_a_birthday = false;
+        //Instantiate a robot obj
+        Robot sai = new Robot();        
+        
+        boolean someone_has_a_birthday = false;    
+        boolean holiday = true;
         
         if(someone_has_a_birthday) {
-            pingEveryone();
+            sai.pingEveryone();              
         }
-        
-    }
 
+        if(holiday) {
+            sai.pingEveryone();
+        }
+
+        String returnAns = sai.returnMethodExample();        
+        System.out.println(returnAns);
+    }
 
     //Helper Friends (METHODS)
     //pingEveryone
-    public static void pingEveryone() {
-        System.out.println("@everyone in the server");
+    private void pingEveryone() {
+        System.out.println("@everyone in the server");        
     }
 
+    private String returnMethodExample() {
+        System.out.println("Sai");        
+        return "Sai";
+    }
+    //String, int, boolean, int[], ArrayList<>
 }
