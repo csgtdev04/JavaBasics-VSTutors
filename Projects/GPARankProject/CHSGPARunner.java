@@ -1,6 +1,8 @@
 package Projects.GPARankProject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class CHSGPARunner {
     public static void main(String[] args) {
@@ -43,6 +45,22 @@ public class CHSGPARunner {
         map.put("Vegeta", vegeta.getWeightedGPA());
 
         System.out.println(map);
+        System.out.println(map.get("Vegeta"));
+        System.out.println(map.get("Goku"));
+     
+
+        for (Map.Entry<String, Double> entry : map.entrySet()) {
+            String key = entry.getKey();
+            double value = entry.getValue();
+            System.out.println("Key: " + key + "    Value: " + value);
+        }
+        
+
+        // Greatest to least GPA (Value) filter method maybe
+        
+
+        
+        
         
 
     }
